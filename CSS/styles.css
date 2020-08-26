@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding:  0px 0px 0px 0px;
+}
+:root {
+    --white: #ffffff;
+    --active: #757575;
+    --black: #212121;
+    --blue: #2196F3;
+    --white-transp:rgba(255, 255, 255, 0.6);
+    --gray: #F5F4FA;
+}
+body {
+    background-color: var(--white);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;    
+    letter-spacing: 0.03em;
+    color: var(--active);
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: var(--black);
+}
+h2 {
+    font-size: 36px;
+    margin: 0 0 50px 0;
+}
+h3 {
+    font-size: 16px;
+}
+p {
+    margin: 0 0 0px 0;
+}
+header {
+    display: inline-block;
+    width: 1200px;
+    padding:0 15px;
+    height: 80px;
+    text-align: center;
+}
+.list {
+list-style-type: none;
+}
+.logo {
+    display: inline-block;
+    font-size: 26px;
+margin-top: 25px;    font-weight: bold;
+    font-family: Raleway;
+    font-style: normal;
+}
+.logo a {
+    color: var(--black); 
+    text-decoration: none;
+}
+.logo span {
+    color: var(--blue);
+}
+.navigation {
+    display: inline;
+margin-left: 93px;
+}
+.navigation .menu-list {
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+margin-right: 50px;
+    }
+    .navigation .menu-list:last-child {
+        margin-right: 0px;
+    }
+    .navigation a {
+        text-decoration: none;
+        color: var(--black);
+    }
+    .menu-list a:hover, .menu-list a:focus {
+color: var(--blue);
+    }
+
+.header-contacts {
+    display: inline-block;
+margin-left: 330px;}
+
+.header-contacts p {
+    display: inline-block;
+    margin-left: 50px;
+}
+.header-contacts p:first-child {
+    margin-left: 0px;
+
+}
+
+
+.header-contacts a{
+    color: var(--active);
+    text-decoration: none;
+}
+.header-contacts a:hover, .header-contacts a:focus {
+    color: var(--blue);
+}
+
+.maininfo {
+height: 600px;
+background-image: url(../images/banner.png);
+background-repeat: repeat-x;
+text-align: center;
+padding-top: 200px;
+
+}
+.mainslogan {
+display:inline-block;
+padding: 30px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--white);
+}
+button {
+    background-color: var(--blue);
+}
+.but1 {
+    display: block;
+}
+.order-service {
+    display: inline-block;
+width: 200px;
+height: 50px;
+background-color: var(--blue);
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+padding:0 0 0 32px;
+color: var(--white);
+border-radius: 4px;
+
+}
+.qualities {
+    position: absolute;
+    top:774px;
+    font-size: 16px;
+}
+.qualities h3 {
+    text-transform: uppercase;
+}
+.what-we-do {
+    position: relative;
+    top:1074px;
+}
+.our-team{
+    position: absolute;
+    top:2074px;
+    background: var(--gray);
+    width: 1200px;
+}
+.our-team li {
+    background: var(--white);  
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin: 30px;
+    width: 270px;
+}
+.teammate {
+    text-align: center;
+    padding: 30px 0 30px 0;
+
+}
+.examples {
+    position: absolute;
+    top:262px;
+    padding: 0 15px 0 15px;
+}
+.examples li {
+margin: 0 30px 30px 0;
+}
+.about-work {
+letter-spacing: 0.06em;
+text-indent: 24px;
+}
+
+.invisible {
+    display:none;
+}
+.filter-of-works {
+    position: absolute;
+top:174px;
+padding: 0 15px 0 15px;
+}
+.filter-of-works li {
+    display: inline-flex;
+    position: relative;
+    border: 1px solid #F5F4FA;
+    background: #F5F4FA;
+border-radius: 4px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+padding: 6px 22px;
+}
+.filter-of-works li:hover, .filter-of-works li:focus {
+  background: var(--blue);
+  color: var(--white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width:1200px;
+    position: absolute;
+    top:3844px;
+    background: url(../images/banner.png);
+    color: var(--white);
+    padding: 60px 15px 60px 15px;
+}
+footer a {
+color: var(--white-transp);
+text-decoration: none;
+}
+.footer-logo {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Raleway;
+    font-style: normal;
+    width: 100px;
+}
+.footer-logo span {
+    color: var(--blue);
+}
