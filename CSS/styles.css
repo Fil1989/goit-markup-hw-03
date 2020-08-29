@@ -183,8 +183,8 @@ border-radius: 4px;
 
 .what-we-do ul {
     display: flex;
-    padding: 0 15px 94px;
     justify-content: space-between;
+    padding-bottom: 94px;
 }
 
 .what-we-do1 {
