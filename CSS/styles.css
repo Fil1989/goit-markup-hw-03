@@ -47,9 +47,16 @@ h3 {
 p {
     margin: 0 0 0px 0;
 }
+header {
+    background-image: url(../images/line-header.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+
+}
 header .container{
     height: 80px;
     text-align: center;
+    
 }
 .navv {
     display: flex;
@@ -215,30 +222,19 @@ border-radius: 4px;
     padding: 30px 0 30px 0;
 
 }
-.examples {
-    position: absolute;
-    top:262px;
-    padding: 0 15px 0 15px;
-}
-.examples li {
-margin: 0 30px 30px 0;
-}
-.about-work {
-letter-spacing: 0.06em;
-text-indent: 24px;
-}
 
 .invisible {
     display:none;
 }
-.filter-of-works {
-    position: absolute;
-top:174px;
-padding: 0 15px 0 15px;
+/* -----Портфолио------- */
+.filter-of-works ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
 }
 .filter-of-works li {
-    display: inline-flex;
-    position: relative;
+    margin-right: 8px;
     border: 1px solid #F5F4FA;
     background: #F5F4FA;
 border-radius: 4px;
@@ -248,11 +244,35 @@ font-size: 16px;
 line-height: 26px;
 padding: 6px 22px;
 }
+.filter-of-works li:last-child{
+    margin-right: 0px;
+}
 .filter-of-works li:hover, .filter-of-works li:focus {
   background: var(--blue);
   color: var(--white);
 }
 
+.examples ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+}
+.examples li {
+margin: 0 30px 30px 0;
+background-image: url(../images/container-item.png);
+height: 404px;}
+
+.examples li:nth-child(3n) {
+    margin: 0 0px 30px 0;
+
+    }
+.about-work {
+letter-spacing: 0.06em;
+text-indent: 24px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
 
 
 
@@ -275,11 +295,7 @@ footer {
     padding: 60px 15px 60px 15px;
 
 }
-.footer-styles {
-    display: inline-block;
-padding: 0 15px;
-text-align: left;
-}
+
 footer a {
 color: var(--white-transp);
 text-decoration: none;
